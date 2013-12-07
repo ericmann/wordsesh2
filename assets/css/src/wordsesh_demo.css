@@ -1,0 +1,31 @@
+/**
+ * WordSesh Demo
+ * http://wordpress.org/plugins
+ *
+ * Copyright (c) 2013 Eric Mann
+ * Licensed under the GPLv2+ license.
+ */
+#wordsesh_quote .quote {
+	line-height: 1.5em;
+}
+#wordsesh_quote .attribution {
+	display: block;
+	float: right;
+	margin-top: 1em;
+}
+#wordsesh_quote_refresh {
+	clear: both;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-style: italic;
+	padding-top: 1em;
+}
+
+#wordsesh_form label {
+	display: block;
+}
+#wordsesh_form input,
+#wordsesh_form textarea {
+	width: 100%;
+}
